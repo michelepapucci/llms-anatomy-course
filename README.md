@@ -1,4 +1,4 @@
-# llms-anatomy-course
+# LLMs Anatomy Course
 Repository for the LLMs Anatomy Course
 
 ## Course Structure 
