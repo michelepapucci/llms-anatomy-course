@@ -1,5 +1,5 @@
 # LLMs Anatomy Course
-Repository for the LLMs Anatomy Course
+Repository for the LLMs Anatomy Course held by [Alessio Miaschi](https://alemiaschi.github.io/) for the theoretical part, and [Michele Papucci](https://michelepapucci.github.io/) for the laboratories. 
 
 ## Course Structure 
 
