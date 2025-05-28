@@ -18,5 +18,6 @@ Inside `slides/` you'll find the slides for the theoretical part, inside `code/`
 All the notebooks will also be hosted on Google colab for easy access. Here the list of the Colab Notebooks for each Laboratory:
 
 - Lecture 2: 
-    - [Introduction to Transformers Laboratory](https://colab.research.google.com/drive/1siygoZz2duxnO1RDDznxYZRbMqL9jL0K) 
+    - [Introduction to Transformers Laboratory - Part 1](https://colab.research.google.com/drive/1siygoZz2duxnO1RDDznxYZRbMqL9jL0K) 
+    - [Introduction To Transformers Laboratory - Part 2](https://colab.research.google.com/drive/1JkS3-tbZ9q_ZtlqrBXPNjYeKc4Fm_V9M?usp=sharing)
 
