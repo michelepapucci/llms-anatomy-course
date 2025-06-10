@@ -20,4 +20,6 @@ All the notebooks will also be hosted on Google colab for easy access. Here the 
 - Lecture 2: 
     - [Introduction to Transformers Laboratory - Part 1](https://colab.research.google.com/drive/1siygoZz2duxnO1RDDznxYZRbMqL9jL0K) 
     - [Introduction To Transformers Laboratory - Part 2](https://colab.research.google.com/drive/1JkS3-tbZ9q_ZtlqrBXPNjYeKc4Fm_V9M?usp=sharing)
-
+- Lecture 3:
+    - [Transformer Pipeline - Part 1](https://colab.research.google.com/drive/1iSFk88oekFKs-Scg_Kmz4gcWBVvfrW8r)
+    - [Transformer Pipeline - Part 2](https://colab.research.google.com/drive/12u3PeotyJStDgeakgRdZftakS4IzRwkr)
