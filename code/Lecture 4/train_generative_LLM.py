@@ -22,9 +22,10 @@ if __name__ == "__main__":
     model_name = args.model_name
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        torch_dtype=torch.float16,
+        torch_dtype=torch.bfloat16,
 
     )
+
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token 
     
@@ -36,12 +37,12 @@ if __name__ == "__main__":
     dataset = dataset["train"].map(rename_conversations)
     
     lora_config = LoraConfig(
-    r=16,
-    lora_alpha=32,
-    target_modules=["q_proj", "v_proj"],  # You might need to adjust for your model
-    lora_dropout=0.05,
-    bias="none",
-    task_type="CAUSAL_LM"
+        r=16,
+        lora_alpha=32,
+        target_modules=["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+        lora_dropout=0.05,
+        bias="none",
+        task_type="CAUSAL_LM"
     )
 
     model = get_peft_model(model, lora_config)
@@ -49,12 +50,12 @@ if __name__ == "__main__":
     training_args = TrainingArguments(
         output_dir=args.output_dir,
         per_device_train_batch_size=1,
-        gradient_accumulation_steps=8,
+        gradient_accumulation_steps=4,
         learning_rate=2e-4,
         num_train_epochs=1,
         logging_dir="./logs",
-        logging_steps=10,
-        fp16=True,             # Enable 16-bit mixed precision
+        logging_steps=100,
+        bf16=True,
         save_steps=500,
         save_total_limit=2,
     )
