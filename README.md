@@ -15,7 +15,7 @@ The course is divided in 6 lessons, most of them will have a theoric introductio
 
 Inside `slides/` you'll find the slides for the theoretical part, inside `code/` you'll find all the notebooks and Python script that will be used for the laboratory, with the necessary data if needed.
 
-All the notebooks will also be hosted on Google colab for easy access. Here the list of the Colab Notebooks for each Laboratory:
+Some of the notebooks will also be hosted on Google colab for easy access. Here the list of the notebooks and scripts for each Laboratory, Lecture 4, for computing reason, is not hosted on Colab:
 
 - Lecture 2: 
     - [Introduction to Transformers Laboratory - Part 1](https://colab.research.google.com/drive/1siygoZz2duxnO1RDDznxYZRbMqL9jL0K) 
