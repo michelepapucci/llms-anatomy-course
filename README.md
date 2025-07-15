@@ -26,3 +26,5 @@ Some of the notebooks will also be hosted on Google colab for easy access. Here 
 - Lecture 4:
     - [Training a Generative Model Python Script](https://github.com/michelepapucci/llms-anatomy-course/blob/master/code/Lecture%204/train_generative_LLM.py)
     - [Decoding Techniques and Generative Models Evaluation](https://github.com/michelepapucci/llms-anatomy-course/blob/master/code/Lecture%204/Lecture_4_Generation_models_Part_1.ipynb)
+- Lecture 5:
+    - [Probing an LLM for Linguistic Competences](https://colab.research.google.com/drive/17zkJ1G0fOsv2LBhDPbFDDZy0WLbH0WX1?usp=sharing);
